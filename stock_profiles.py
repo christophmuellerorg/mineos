@@ -9,6 +9,15 @@ __email__ = "wdchromium@gmail.com"
  
 STOCK_PROFILES = [
     {
+        'name': 'vanilla1122',
+        'type': 'standard_jar',
+        'url': 'https://s3.amazonaws.com/Minecraft.Download/versions/1.12.2/minecraft_server.1.12.2.jar',
+        'save_as': 'minecraft_server.1.12.2.jar',
+        'run_as': 'minecraft_server.1.12.2.jar',
+        'ignore': '',
+        'desc': 'official minecraft_server.jar, requires EULA acceptance'
+        },
+    {
         'name': 'vanilla111',
         'type': 'standard_jar',
         'url': 'https://s3.amazonaws.com/Minecraft.Download/versions/1.11/minecraft_server.1.11.jar',
